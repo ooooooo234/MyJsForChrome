@@ -1,0 +1,41 @@
+{
+  "defaultcode": {
+    "message": "alert('Hello world');"
+  },
+  "unset": {
+    "message": "'unset'"
+  },
+  "warning_text": {
+    "message": "You must check \"Allow user scripts\" in the extension details page to run custom JavaScript."
+  },
+  "warning_hidden": {
+    "message": "Dismiss"
+  },
+  "submit_button": {
+    "message": "Add JS to web page"
+  },
+  "submitSave_button": {
+    "message": "Save JS in textarea"
+  },
+  "open_in_tab_button": {
+    "message": "Open in tab"
+  },
+  "overwrite": {
+    "message": "Overwrite"
+  },
+  "write_js_here_label": {
+    "message": "Write JavaScript here:"
+  },
+  "extra_options": {
+    "message": "extra options"
+  },
+  "fullscreen_visible_label": {
+    "message": "Hide \"fullscreen\" feature in context menu"
+  },
+  "page_title": {
+    "message": "MyJs Options page"
+  },
+  "fullscreen_title": {
+    "message": "fullscreen"
+  }
+}

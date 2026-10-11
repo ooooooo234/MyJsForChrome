@@ -1,0 +1,41 @@
+{
+  "defaultcode": {
+    "message": "alert('Hello world');"
+  },
+  "unset": {
+    "message": "'未設定'"
+  },
+  "warning_text": {
+    "message": "你必須在擴充功能詳細資訊頁面中勾選 \"允許使用者指令碼\" 才能執行自定義JavaScript。"
+  },
+  "warning_hidden": {
+    "message": "關閉"
+  },
+  "submit_button": {
+    "message": "將JS加到網頁中"
+  },
+  "submitSave_button": {
+    "message": "將JS保存在文字框中"
+  },
+  "open_in_tab_button": {
+    "message": "在分頁中打開此頁"
+  },
+  "overwrite": {
+    "message": "覆寫"
+  },
+  "write_js_here_label": {
+    "message": "在這裡寫 JavaScript :"
+  },
+  "extra_options": {
+    "message": "更多選項"
+  },
+  "fullscreen_visible_label": {
+    "message": "隱藏選單中的 \"全螢幕\" 功能"
+  },
+  "page_title": {
+    "message": "MyJs 選項頁"
+  },
+  "fullscreen_title": {
+    "message": "全螢幕"
+  }
+}
