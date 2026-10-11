@@ -1,0 +1,34 @@
+{
+
+  "manifest_version": 3,
+  "name": "MyJs",
+  "version": "1.3.0.1",
+  "default_locale": "en",
+
+  "description": "Add my JavaScript to the web page",
+
+  "icons": {
+  },
+
+  "action": {
+    "default_icon": {
+    },
+    "default_title": "My Js",
+    "default_popup": "pop.html"
+  },
+  "options_ui": {
+      "page": "pop.html",
+      "open_in_tab": true
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  
+  "permissions": ["activeTab", "contextMenus", "storage", "userScripts", "scripting"],
+  "browser_specific_settings": {
+      "gecko": {
+          "id": "myjs@id"
+      }
+   }
+}

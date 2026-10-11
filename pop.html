@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="pop.css"/>
+        <title>MyJs Options page</title>
+    </head>
+    <body>
+        <div id="outside">
+            <div class="flex_row" id="warning">
+                <p id="warning_text">You must check "Allow user scripts" in the extension details page to run custom JavaScript.</p>
+                <button type="button" id="warning_hidden">Dismiss</button>
+            </div>
+            <label for="code" id="write_js_here">Write JavaScript here:</label>
+            <textarea id="code" rows="13"></textarea>
+            <div class="flex_row">
+                <button type="button" id="submit">Add to page</button>
+                <button type="button" id="submitSave">Save in textarea</button>
+            </div>
+            <button type="button" id="open_in_tab">Open in tab</button>
+            <ol id="list">
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_1">
+                        <textarea id="list_1" name=1 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_2">
+                        <textarea id="list_2" name=2 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_3">
+                        <textarea id="list_3" name=3 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_4">
+                        <textarea id="list_4" name=4 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_5">
+                        <textarea id="list_5" name=5 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_6">
+                        <textarea id="list_6" name=6 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_7">
+                        <textarea id="list_7" name=7 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_8">
+                        <textarea id="list_8" name=8 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_9">
+                        <textarea id="list_9" name=9 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <input type="checkbox" id="checkbox_10">
+                        <textarea id="list_10" name=10 readonly="readonly">unset</textarea>
+                    </div>
+                </li>
+            </ol>
+            <details>
+                <summary id="extra_options">extra options</summary>
+                <ul id="checkbox">
+                    <li>
+                        <div>
+                            <input type="checkbox" id="fullscreen_visible">
+                            <label for="fullscreen_visible" id="fullscreen_visible_label">Hide "fullscreen" feature in context menu</label>
+                        </div>
+                    </li>
+                </ul>
+            </details>
+        </div>
+        <script src="pop.js"></script>
+    </body>
+</html>
